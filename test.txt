@@ -1,0 +1,4 @@
+observer:start().
+application:start(mabu_server).
+mabu_server:start_listen(2222,mabu_echo).
+mabu_server:start_listen(3333,mabu_echo).
